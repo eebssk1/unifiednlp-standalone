@@ -35,6 +35,13 @@
 
         <library android:name="org.microg.nlp.app" />
 
+        <!-- Auto-enable all installed NLP backends on first launch -->
+        <provider
+            android:name="org.microg.gms.nlp.NlpBackendInitProvider"
+            android:authorities="${applicationId}.nlp_backend_init"
+            android:exported="false"
+            android:initOrder="999" />
+
         <!-- Location -->
 
         <activity

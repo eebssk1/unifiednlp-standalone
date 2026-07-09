@@ -97,6 +97,7 @@ play-services-core/src/main/java/org/microg/gms/ui/SettingsDashboardActivity.jav
 play-services-core/src/main/java/org/microg/gms/ui/SelfCheckFragment.java
 play-services-core/src/main/java/org/microg/tools/selfcheck/SystemChecks.java
 play-services-core/src/main/kotlin/org/microg/gms/ui/SettingsFragment.kt
+play-services-core/src/main/kotlin/org/microg/gms/nlp/NlpBackendInitProvider.kt
 play-services-core/src/main/res/drawable-anydpi-v21/microg_light_color_24.xml
 play-services-core/src/main/res/drawable-hdpi/ic_gamepad.png
 play-services-core/src/main/res/drawable-hdpi/ic_generic_man.png
