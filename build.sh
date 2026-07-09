@@ -239,13 +239,14 @@ ret=0
     done
 
     cp -R gradle "$TMPDIR/"
+    cp gradlew gradlew.bat "$TMPDIR/"
 
     (
         cd "$TMPDIR"
 
         echo 'org.gradle.jvmargs=-Xmx2048m -XX:+HeapDumpOnOutOfMemoryError' \
             >> gradle.properties
-        gradle --no-daemon :play-services-core:build
+        ./gradlew --no-daemon :play-services-core:build
     )
 } || ret=$?
 
